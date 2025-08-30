@@ -1,33 +1,10 @@
 {
-  "name": "castello360-whatsapp-bot",
+  "name": "wa-webhook",
   "version": "1.0.0",
-  "description": "WhatsApp Business Bot para Castello360 - Cotización de Tours 360",
-  "main": "index.js",
-  "type": "module",
+  "private": true,
+  "engines": { "node": ">=18" },
   "scripts": {
-    "build": "tsc",
-    "start": "node index.js",
-    "dev": "node index.js",
-    "watch": "tsc -w",
-    "ngrok": "ngrok http 3000"
-  },
-  "dependencies": {
-    "express": "^4.18.2",
-    "axios": "^1.6.0",
-    "dotenv": "^16.3.1",
-    "cors": "^2.8.5"
-  },
-  "devDependencies": {
-    "@types/node": "^20.0.0",
-    "@types/express": "^4.17.21",
-    "@types/cors": "^2.8.17",
-    "typescript": "^5.0.0",
-    "ts-node": "^10.9.1"
-  },
-  "keywords": ["whatsapp", "bot", "castello360", "tours", "chile"],
-  "author": "Castello360",
-  "license": "MIT",
-  "engines": {
-    "node": ">=18"
+    "build": "echo skip",
+    "vercel-build": "echo skip"
   }
 }
